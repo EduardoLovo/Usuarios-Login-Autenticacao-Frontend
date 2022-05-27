@@ -1,0 +1,43 @@
+.homeBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 4rem; */
+    height: 80%;
+}
+
+.homeBody h1 {
+    padding: 2rem;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.btns {
+    display: flex;
+}
+
+.btns button {
+    width: 10rem;
+    height: 4rem;
+    margin: 0 1rem 2rem 0;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(46, 61, 173);
+    font-size: 1.3rem;
+    transition: all .3s ease-in-out;
+}
+
+.btns button:hover {
+    background-color: rgba(46, 61, 173, 0.745);
+
+}
+
+.homeLogout {
+    display: flex;
+    justify-content: center;
+}
+
+.users {
+    text-align: center;
+}
