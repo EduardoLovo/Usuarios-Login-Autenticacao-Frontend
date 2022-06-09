@@ -37,7 +37,7 @@ export const Login = () => {
 
             navigate('/')
         } else {
-            // Error
+            console.log('senha incorreta');
         }
     }
 

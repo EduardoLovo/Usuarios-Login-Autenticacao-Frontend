@@ -1,6 +1,6 @@
 .App {
-    background: rgb(63, 94, 251);
-    background: linear-gradient(135deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    background-image: url('../public/wall.jpg');
+    /* background: linear-gradient(135deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%); */
     overflow: hidden;
     height: 100vh;
 }
